@@ -47,3 +47,8 @@ bb.require(['bb.BundleController'], function () {
     });
 });
 ```
+
+##php
+
+bundle
+create the minimal structure for bundle entry point
