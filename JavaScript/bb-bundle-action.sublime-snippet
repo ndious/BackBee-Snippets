@@ -2,7 +2,7 @@
     <content><![CDATA[
 bb.bundle.addAction('${1:namespace}', {
     params: function () {
-        return ${2:{}};
+        return ${2:\\{\\}};
     },
     success: function (response) {
         ${3}
