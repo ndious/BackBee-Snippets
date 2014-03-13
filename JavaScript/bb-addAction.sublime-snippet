@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+bb.require(['bb.BundleController'], function () {
+    ${1}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbreq</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <description>BackBee Bundle js requirement</description>
+</snippet>

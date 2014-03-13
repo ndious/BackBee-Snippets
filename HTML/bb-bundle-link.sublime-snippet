@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<a class="bb-bundle-link" data-href="${1:namespace}">${2:text}</a>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bblink</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <description>BackBee bundle link</description>
+</snippet>

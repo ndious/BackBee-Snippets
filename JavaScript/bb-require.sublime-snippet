@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+bb.require(['bb.BundleController'], function () {
+    bb.bundle.addAction('${1:namespace}', {
+        params: function () {
+            return ${2:{}};
+        },
+        success: function (response) {
+            ${3}
+        }
+    });
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>react</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <description>BackBee Bundle js requirement</description>
+</snippet>
