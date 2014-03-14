@@ -14,6 +14,10 @@ bblink
 ```
 
 ## JS
+bth
+```javascript
+bb.throw(${1:name}, ${2:message}, {});
+```
 
 req
 ```javascript
@@ -51,4 +55,6 @@ bb.require(['bb.BundleController'], function () {
 ##php
 
 bundle
+```
 create the minimal structure for bundle entry point
+```
